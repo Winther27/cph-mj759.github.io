@@ -13,20 +13,24 @@ body {
   font-family: Verdana, system-ui, Arial, "Helvetica Neue", Helvetica,
     sans-serif;
 }
+/*style af navbar baggrund og placering*/
 nav {
   background: #f49908;
   height: 70px;
   width: 100%;
 }
+/* Definerer placeringer af link til navigationsbar*/
 nav ul {
   float: right;
   margin-right: 20px;
 }
+/* Navbar links placering*/
 nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
 }
+/* Tekstfarve og tekststørrelse til link på navbar*/
 nav ul li a {
   color: white;
   font-size: 17px;
@@ -47,6 +51,11 @@ nav {
 .blank{
     opacity: 0%;
 }
-
+.mailto {
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
   
